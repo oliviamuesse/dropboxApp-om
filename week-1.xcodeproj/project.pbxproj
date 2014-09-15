@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		456E52B119C5103E00399E70 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E52B019C5103E00399E70 /* CreateAccountRootViewController.swift */; };
 		456E52B319C513FB00399E70 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E52B219C513FB00399E70 /* SignInViewController.swift */; };
+		456E52B519C694D300399E70 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E52B419C694D300399E70 /* ScrollViewController.swift */; };
 		45B81A0719C1418400DD88B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B81A0619C1418400DD88B4 /* AppDelegate.swift */; };
 		45B81A0919C1418400DD88B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B81A0819C1418400DD88B4 /* ViewController.swift */; };
 		45B81A0C19C1418400DD88B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B81A0A19C1418400DD88B4 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		456E52B019C5103E00399E70 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		456E52B219C513FB00399E70 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		456E52B419C694D300399E70 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		45B81A0119C1418400DD88B4 /* week-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "week-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45B81A0519C1418400DD88B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B81A0619C1418400DD88B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				45B81A0819C1418400DD88B4 /* ViewController.swift */,
 				456E52B019C5103E00399E70 /* CreateAccountRootViewController.swift */,
 				456E52B219C513FB00399E70 /* SignInViewController.swift */,
+				456E52B419C694D300399E70 /* ScrollViewController.swift */,
 				45B81A0A19C1418400DD88B4 /* Main.storyboard */,
 				45B81A0D19C1418400DD88B4 /* Images.xcassets */,
 				45B81A0F19C1418400DD88B4 /* LaunchScreen.xib */,
@@ -220,6 +223,7 @@
 			files = (
 				456E52B119C5103E00399E70 /* CreateAccountRootViewController.swift in Sources */,
 				45B81A0919C1418400DD88B4 /* ViewController.swift in Sources */,
+				456E52B519C694D300399E70 /* ScrollViewController.swift in Sources */,
 				456E52B319C513FB00399E70 /* SignInViewController.swift in Sources */,
 				45B81A0719C1418400DD88B4 /* AppDelegate.swift in Sources */,
 			);
