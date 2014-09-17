@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="fVe-ir-ndh" kind="modal" modalTransitionStyle="crossDissolve" id="bJQ-Gc-JyW"/>
+                                    <segue destination="fVe-ir-ndh" kind="modal" identifier="welcome1" modalTransitionStyle="crossDissolve" id="bJQ-Gc-JyW"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -54,7 +54,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="f9f-8C-kqP" kind="modal" modalTransitionStyle="crossDissolve" id="DEA-kl-6Ah"/>
+                                    <segue destination="f9f-8C-kqP" kind="modal" identifier="welcome2" modalTransitionStyle="crossDissolve" id="DEA-kl-6Ah"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -301,20 +301,14 @@
                                     <action selector="clickBackNav:" destination="Tee-xh-MKd" eventType="touchUpInside" id="pET-FT-zwB"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="ji4-h0-XHg">
-                                <rect key="frame" x="111" y="83" width="209" height="36"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="********" minimumFontSize="18" id="N1s-cc-euF">
+                                <rect key="frame" x="107" y="218" width="213" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="N1s-cc-euF">
-                                <rect key="frame" x="104" y="215" width="216" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="RIj-KY-SsQ">
-                                <rect key="frame" x="69" y="171" width="251" height="36"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="jonny@appleseed.com" minimumFontSize="18" id="RIj-KY-SsQ">
+                                <rect key="frame" x="74" y="171" width="246" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -329,8 +323,14 @@
                                     <segue destination="uVy-cN-opr" kind="push" id="arD-Dn-FZC"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="aRz-dO-8eZ">
-                                <rect key="frame" x="112" y="127" width="208" height="36"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Appleseed" minimumFontSize="18" id="aRz-dO-8eZ">
+                                <rect key="frame" x="117" y="128" width="203" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Johnny" minimumFontSize="18" id="ji4-h0-XHg">
+                                <rect key="frame" x="117" y="85" width="203" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -577,7 +577,7 @@
             </objects>
             <point key="canvasLocation" x="4037" y="838"/>
         </scene>
-        <!--Photos-->
+        <!--Files-->
         <scene sceneID="Ld2-5y-zAd">
             <objects>
                 <viewController id="cxh-6a-e9w" customClass="ViewController" customModule="week_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -609,7 +609,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Photos" id="N2L-f9-a2J"/>
+                    <navigationItem key="navigationItem" title="Files" id="N2L-f9-a2J"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uhL-6K-I0g" sceneMemberID="firstResponder"/>
@@ -680,7 +680,7 @@
                         <segue destination="oII-vn-Cu5" kind="relationship" relationship="viewControllers" id="wzE-yp-bRc"/>
                         <segue destination="Xdk-1x-y40" kind="relationship" relationship="viewControllers" id="F1E-xp-3NJ"/>
                         <segue destination="qtQ-4R-Qcs" kind="relationship" relationship="viewControllers" id="Ybs-i4-mau"/>
-                        <segue destination="vo8-R6-8k7" kind="modal" id="GUl-rw-kmJ"/>
+                        <segue destination="vo8-R6-8k7" kind="relationship" relationship="viewControllers" id="zCE-iR-Dk6"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xIU-re-amP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -748,7 +748,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="h8a-5C-Bea" kind="modal" animates="NO" id="9IU-0P-0Lh"/>
+                                    <action selector="onClick:" destination="FqX-FC-mFc" eventType="touchUpInside" id="jsU-QW-xrY"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -761,11 +761,11 @@
             </objects>
             <point key="canvasLocation" x="2315" y="1742"/>
         </scene>
-        <!--Item 1-->
+        <!--Files-->
         <scene sceneID="KjZ-i3-qHA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CSF-Qn-wx7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" image="files_tab" id="D1W-kF-ZIA"/>
+                    <tabBarItem key="tabBarItem" title="Files" image="files_tab" id="D1W-kF-ZIA"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tEj-EW-cou">
@@ -781,11 +781,11 @@
             </objects>
             <point key="canvasLocation" x="4569" y="1653"/>
         </scene>
-        <!--Item 2-->
+        <!--Photos-->
         <scene sceneID="wZB-HT-cNF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BNC-ix-NxY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="photos_tab" id="dBj-KW-GG9"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos_tab" id="dBj-KW-GG9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dwL-UF-e4D">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -800,11 +800,11 @@
             </objects>
             <point key="canvasLocation" x="5027" y="1653"/>
         </scene>
-        <!--item 3-->
+        <!--Favorites-->
         <scene sceneID="PIs-4s-knM">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Egv-uH-yNR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="item 3" image="favorites_tab" id="aW7-fa-Une"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="aW7-fa-Une"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dXT-E7-Gmc">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -819,11 +819,11 @@
             </objects>
             <point key="canvasLocation" x="5465" y="1653"/>
         </scene>
-        <!--Item 4-->
+        <!--Settings-->
         <scene sceneID="9Gq-az-G1b">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AZy-Ro-pYh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 4" image="settings_tab" id="UeD-Iv-GRC"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="UeD-Iv-GRC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lpM-Aa-L3P">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -838,11 +838,11 @@
             </objects>
             <point key="canvasLocation" x="5903" y="1653"/>
         </scene>
-        <!--Item 1-->
+        <!--Files-->
         <scene sceneID="d9n-2c-chJ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oII-vn-Cu5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 1" image="files_tab" id="qeU-q1-3Qf"/>
+                    <tabBarItem key="tabBarItem" title="Files" image="files_tab" id="qeU-q1-3Qf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mfm-ge-4qM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -857,11 +857,11 @@
             </objects>
             <point key="canvasLocation" x="1951" y="2705"/>
         </scene>
-        <!--Item 2-->
+        <!--Photos-->
         <scene sceneID="AfU-gj-JKW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xdk-1x-y40" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 2" image="photos_tab" id="kca-Eo-dQF"/>
+                    <tabBarItem key="tabBarItem" title="Photos" image="photos_tab" id="kca-Eo-dQF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wah-gA-dTL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -876,11 +876,11 @@
             </objects>
             <point key="canvasLocation" x="2403" y="2705"/>
         </scene>
-        <!--item 3-->
+        <!--Favorites-->
         <scene sceneID="IBq-jJ-lUD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qtQ-4R-Qcs" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="item 3" image="favorites_tab" id="F4m-FO-rCK"/>
+                    <tabBarItem key="tabBarItem" title="Favorites" image="favorites_tab" id="F4m-FO-rCK"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8rJ-pe-f9c">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -933,10 +933,11 @@
             </objects>
             <point key="canvasLocation" x="3233" y="3419"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Settings-->
         <scene sceneID="fbB-WA-U8J">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vo8-R6-8k7" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="eGS-X4-X36"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DiG-Qg-ANg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -949,7 +950,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rkg-si-eLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3233" y="2713"/>
+            <point key="canvasLocation" x="3233" y="2705"/>
         </scene>
     </scenes>
     <resources>
