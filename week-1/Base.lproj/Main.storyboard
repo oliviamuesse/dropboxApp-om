@@ -917,6 +917,9 @@
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="HW1-5k-Geo" kind="push" id="eZH-hx-z0m"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </scrollView>
@@ -982,7 +985,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="50i-4i-pMQ"/>
-        <segue reference="8Un-HJ-d3F"/>
+        <segue reference="eZH-hx-z0m"/>
         <segue reference="BgC-Qf-b5I"/>
     </inferredMetricsTieBreakers>
 </document>
