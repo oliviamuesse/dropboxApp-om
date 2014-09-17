@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var swipeGesture: UISwipeGestureRecognizer!
     @IBOutlet weak var dismissButton: UIButton!
     
     override func viewDidLoad() {
@@ -18,6 +19,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func swipeGesture(sender: AnyObject) {
+        performSegueWithIdentifier("welcome2", sender: self)
+    }
+    
     @IBAction func onClick(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
