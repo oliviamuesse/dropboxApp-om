@@ -5,3 +5,4 @@ dropboxApp-om
 All required stories
 Optional UI text fields
 
+![alt tag](dropboxApp-om.gif)
