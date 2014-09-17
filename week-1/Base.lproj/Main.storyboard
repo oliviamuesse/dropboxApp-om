@@ -466,7 +466,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WAc-oh-IMn" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="2347"/>
+            <point key="canvasLocation" x="4569" y="2347"/>
         </scene>
         <!--Photos-->
         <scene sceneID="dKh-mZ-elL">
@@ -488,7 +488,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TH0-kH-U5s" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4495" y="2347"/>
+            <point key="canvasLocation" x="5027" y="2347"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="DG4-P9-WVL">
@@ -510,7 +510,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LfO-Vd-YOj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4933" y="2347"/>
+            <point key="canvasLocation" x="5465" y="2347"/>
         </scene>
         <!--Settings-->
         <scene sceneID="VaC-5z-jyM">
@@ -551,7 +551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3aP-tu-XdS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5371" y="2347"/>
+            <point key="canvasLocation" x="5903" y="2347"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Mkx-Y3-0jQ">
@@ -663,44 +663,6 @@
             </objects>
             <point key="canvasLocation" x="2829" y="3419"/>
         </scene>
-        <!--Settings-->
-        <scene sceneID="CKm-aD-hwd">
-            <objects>
-                <viewController id="Nwq-Lz-IDw" customClass="ScrollViewController" customModule="week_1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cre-LH-qOI">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="vES-38-okY">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="nLp-dt-myK">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tf4-z8-tfW">
-                                        <rect key="frame" x="0.0" y="689" width="320" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                    </button>
-                                </subviews>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Settings" id="zY8-Xe-fU9"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="scrollView" destination="vES-38-okY" id="Tcu-oe-gOZ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vPC-33-x1l" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3233" y="3419"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="pCS-JB-vUL">
             <objects>
@@ -715,7 +677,7 @@
                         <segue destination="oII-vn-Cu5" kind="relationship" relationship="viewControllers" id="wzE-yp-bRc"/>
                         <segue destination="Xdk-1x-y40" kind="relationship" relationship="viewControllers" id="F1E-xp-3NJ"/>
                         <segue destination="qtQ-4R-Qcs" kind="relationship" relationship="viewControllers" id="Ybs-i4-mau"/>
-                        <segue destination="Yeq-I6-mn2" kind="relationship" relationship="viewControllers" id="TvO-2C-vsl"/>
+                        <segue destination="vo8-R6-8k7" kind="modal" id="GUl-rw-kmJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xIU-re-amP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -814,7 +776,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1V2-Xv-eMf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4037" y="1653"/>
+            <point key="canvasLocation" x="4569" y="1653"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="wZB-HT-cNF">
@@ -833,7 +795,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yKI-IZ-5GX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4495" y="1653"/>
+            <point key="canvasLocation" x="5027" y="1653"/>
         </scene>
         <!--item 3-->
         <scene sceneID="PIs-4s-knM">
@@ -852,7 +814,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yPf-F7-QhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4933" y="1653"/>
+            <point key="canvasLocation" x="5465" y="1653"/>
         </scene>
         <!--Item 4-->
         <scene sceneID="9Gq-az-G1b">
@@ -871,7 +833,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZq-Mx-gKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5371" y="1653"/>
+            <point key="canvasLocation" x="5903" y="1653"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="d9n-2c-chJ">
@@ -930,24 +892,61 @@
             </objects>
             <point key="canvasLocation" x="2829" y="2705"/>
         </scene>
-        <!--Item 4-->
-        <scene sceneID="8kZ-HC-lXg">
+        <!--Settings-->
+        <scene sceneID="siY-mh-Ifr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yeq-I6-mn2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item 4" image="settings_tab" id="u7t-8E-uic"/>
+                <viewController id="VSL-bi-4rq" customClass="ScrollViewController" customModule="week_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d1e-1w-EFS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" id="l5S-tZ-ksK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" id="O9E-VN-Rp7">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="772"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tku-Fy-S8R">
+                                        <rect key="frame" x="0.0" y="689" width="320" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Settings" id="xbx-Xp-sAy"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="scrollView" destination="l5S-tZ-ksK" id="HBk-4f-q9k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58e-UF-IIZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3233" y="3419"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fbB-WA-U8J">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vo8-R6-8k7" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XtE-Bj-uJc">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DiG-Qg-ANg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Nwq-Lz-IDw" kind="relationship" relationship="rootViewController" id="YL9-Mb-sxc"/>
+                        <segue destination="VSL-bi-4rq" kind="relationship" relationship="rootViewController" id="YFG-ka-9p8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hsN-9i-JFY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rkg-si-eLK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3227" y="2705"/>
+            <point key="canvasLocation" x="3233" y="2713"/>
         </scene>
     </scenes>
     <resources>
@@ -978,9 +977,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="arD-Dn-FZC"/>
-        <segue reference="50i-4i-pMQ"/>
-        <segue reference="fTl-0z-G7j"/>
+        <segue reference="VlJ-RS-vJX"/>
         <segue reference="BgC-Qf-b5I"/>
+        <segue reference="8Un-HJ-d3F"/>
+        <segue reference="50i-4i-pMQ"/>
     </inferredMetricsTieBreakers>
 </document>
