@@ -24,7 +24,6 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="5PX-8r-3HV" appends="YES" id="R41-dW-2FW"/>
                                     <segue destination="fVe-ir-ndh" kind="modal" identifier="welcome1" animates="NO" id="egF-Bg-4cE"/>
                                 </connections>
                             </button>
@@ -32,16 +31,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="swipeGesture" destination="5PX-8r-3HV" id="3QV-1p-8yd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="5PX-8r-3HV">
-                    <connections>
-                        <action selector="swipeGesture:" destination="vXZ-lx-hvc" id="s57-3s-hA5"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="74" y="128"/>
         </scene>
@@ -65,24 +56,15 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="OeV-OI-WWq" appends="YES" id="zfj-HT-8cd"/>
-                                    <segue destination="f9f-8C-kqP" kind="modal" identifier="welcome2" modalTransitionStyle="crossDissolve" id="DEA-kl-6Ah"/>
+                                    <segue destination="f9f-8C-kqP" kind="modal" identifier="welcome2" animates="NO" id="DEA-kl-6Ah"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="swipeGesture" destination="OeV-OI-WWq" id="6F9-KL-wO9"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9x-GP-tZJ" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="OeV-OI-WWq">
-                    <connections>
-                        <action selector="swipeGesture:" destination="fVe-ir-ndh" id="247-o8-d8e"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="508" y="128"/>
         </scene>
@@ -234,6 +216,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="sBQ-do-jI6" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="88g-b8-ADa"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5IQ-0x-tMA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -558,7 +541,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="HW1-5k-Geo" kind="push" id="fTl-0z-G7j"/>
+                                            <segue destination="sBQ-do-jI6" kind="modal" animates="NO" id="9BT-Tf-ZO3"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1005,7 +988,8 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="50i-4i-pMQ"/>
-        <segue reference="eZH-hx-z0m"/>
+        <segue reference="8Un-HJ-d3F"/>
+        <segue reference="9BT-Tf-ZO3"/>
         <segue reference="BgC-Qf-b5I"/>
     </inferredMetricsTieBreakers>
 </document>
