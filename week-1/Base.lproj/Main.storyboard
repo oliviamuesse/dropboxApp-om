@@ -374,7 +374,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2sa-AN-aSg" kind="modal" id="6Fe-BN-e2f"/>
+                                    <segue destination="2sa-AN-aSg" kind="modal" modalTransitionStyle="crossDissolve" animates="NO" id="6Fe-BN-e2f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lKf-Ik-x7S">
@@ -416,7 +416,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="uVy-cN-opr" kind="modal" animates="NO" id="VlJ-RS-vJX"/>
+                                    <action selector="onClick:" destination="bU2-3L-i5f" eventType="touchUpInside" id="UFa-de-TGX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -424,6 +424,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="QHK-ev-S7j"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="dismissButton" destination="c9A-kX-DSL" id="2T6-2B-115"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K3J-0N-A1B" sceneMemberID="firstResponder"/>
             </objects>
@@ -977,9 +980,8 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="VlJ-RS-vJX"/>
-        <segue reference="BgC-Qf-b5I"/>
-        <segue reference="8Un-HJ-d3F"/>
         <segue reference="50i-4i-pMQ"/>
+        <segue reference="8Un-HJ-d3F"/>
+        <segue reference="BgC-Qf-b5I"/>
     </inferredMetricsTieBreakers>
 </document>
